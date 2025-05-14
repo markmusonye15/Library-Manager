@@ -1,4 +1,12 @@
-print(">>> Running the CORRECT app.py file")
+# Library Management System
+# This is a simple library management system that allows you to manage books, students, and librarians.
+# It includes classes for Person, Student, Books, and Librarian.
+# Each class has its own attributes and methods to perform various operations.
+# The Person class is the base class for Student and Librarian classes.
+# The Student class inherits from Person and adds attributes for course and student_id.
+# The Books class represents a book with attributes like title, author, year, ISBN, genre, and status.
+# The Librarian class inherits from Person and adds methods to record new books, lend books, receive returned books, and track borrowed books.
+# The system allows you to create instances of each class and perform operations like greeting, displaying book information, updating book status, and managing borrowed books.
 
 class Person:
     def __init__(self, name, age, gender, id ):
